@@ -1,0 +1,87 @@
+:root {
+	--blue23: #0561A1;
+	--orange23: #F7951E;
+	--yellow23: #F9D886;
+}
+
+body {
+	background-image: url(bg.gif);
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+.container-fluid {
+	padding-left: 0;
+	padding-right:0 ;
+}
+
+#header-text {
+	line-height: 1.5em;
+	font-weight: 900;
+	font-size: 3.5em;
+	text-shadow: 0 10px black;
+}
+
+.paragraph-text {
+	font-size: 1.5em;
+	line-height: 1.8em;
+	letter-spacing: 2px;
+	text-shadow: 0 5px black
+}
+
+.link {
+	text-decoration: none;
+	color: var(--orange23);
+}
+.link:hover {
+	color: var(--yellow23);
+}
+
+.overtheyears-text {
+	line-height: 90px;
+	color: white;
+	font-weight: 900;
+	font-size: 2em;
+	text-shadow: 0 7px black;
+
+}
+.footer {
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 1.5em;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.showlist {
+	margin: 0;
+	padding: 0
+}
+.showlist>li {
+	font-size: 1em;
+	margin-bottom: 5px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+#hsuehjenimg {
+	-webkit-filter: drop-shadow(15px 1px 0px var(--orange23));
+	min-height: 80vh;
+}
+
+.yellow23 {
+	color: var(--yellow23)
+}
+
+.category {
+	line-height: 90px;
+	font-weight: 900;
+	font-size: 3em;
+	text-shadow: 0 8px black;
+	text-decoration: underline;
+	text-underline-offset: 20px;
+	text-align: center;
+}
