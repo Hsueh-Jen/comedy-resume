@@ -22,14 +22,14 @@ ul {
 	line-height: 1.5em;
 	font-weight: 900;
 	font-size: 3.5em;
-	text-shadow: 0 10px black;
+	text-shadow: 0 8px black;
 }
 
 .paragraph-text {
 	font-size: 1.5em;
 	line-height: 1.8em;
 	letter-spacing: 2px;
-	text-shadow: 0 5px black
+	text-shadow: 0 2px black
 }
 
 .link {
@@ -45,7 +45,7 @@ ul {
 	color: white;
 	font-weight: 900;
 	font-size: 2em;
-	text-shadow: 0 7px black;
+	text-shadow: 0 5px black;
 
 }
 .footer {
@@ -81,8 +81,16 @@ ul {
 	line-height: 90px;
 	font-weight: 900;
 	font-size: 3em;
-	text-shadow: 0 8px black;
+	text-shadow: 0 6px black;
 	text-decoration: underline;
 	text-underline-offset: 20px;
 	text-align: center;
 }
+
+@media screen and (max-width:576px){
+	#header-text {
+		font-size: 2.5em;
+	}
+}
+
+
